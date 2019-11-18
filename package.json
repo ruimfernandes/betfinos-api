@@ -1,0 +1,37 @@
+{
+  "name": "betfinos-api",
+  "version": "1.0.0",
+  "description": "BetFinos graphQL API",
+  "main": "index.js",
+  "dependencies": {
+    "apollo-server-express": "^2.9.9",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "graphql": "^14.5.8",
+    "graphql-tools": "^4.0.6",
+    "mongoose": "^5.7.11",
+    "q": "^1.5.1",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/node": "^7.7.0",
+    "@babel/preset-env": "^7.7.1"
+  },
+  "scripts": {
+    "start": "babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruimfernandes/betfinos-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruimfernandes/betfinos-api/issues"
+  },
+  "homepage": "https://github.com/ruimfernandes/betfinos-api#readme"
+}
