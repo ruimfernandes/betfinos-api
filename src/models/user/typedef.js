@@ -22,4 +22,7 @@ export default gql`
       age: Int
     ): User
   }
+  extend type Subscription {
+    userAdded: User
+  }
 `;
