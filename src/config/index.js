@@ -23,6 +23,7 @@ export const mongo = {
     useCreateIndex: true,
     useFindAndModify: false,
     useNewUrlParser: true,
+    useUnifiedTopology: true,
   },
 };
 export default {
